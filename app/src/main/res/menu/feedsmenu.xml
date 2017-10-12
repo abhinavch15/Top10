@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu1"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="Free Apps"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu2"
+        android:checkable="false"
+        android:title="Paid Apps"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu3"
+        android:title="Songs"
+        android:visible="true"
+        app:showAsAction="always" />
+    <group app:showAsAction="always" />
+</menu>
+
